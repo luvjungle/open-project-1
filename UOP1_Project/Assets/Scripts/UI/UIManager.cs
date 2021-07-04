@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
 	[SerializeField] private UISettings _settingScreen = default;
 
 	[Header("Gameplay Components")]
-	[SerializeField] private GameStateSO _gameState = default;
+	[SerializeField] private GameStateManagerSO _gameState = default;
 	[SerializeField] private MenuSO _mainMenu = default;
 	[SerializeField] private InputReader _inputReader = default;
 

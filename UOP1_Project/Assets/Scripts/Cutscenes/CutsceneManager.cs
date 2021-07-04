@@ -9,7 +9,7 @@ public class CutsceneManager : MonoBehaviour
 	[SerializeField] private DialogueManager _dialogueManager = default;
 	[Header("Gameplay Components")]
 	[SerializeField] private InputReader _inputReader = default;
-	[SerializeField] private GameStateSO _gameState = default;
+	[SerializeField] private GameStateManagerSO _gameState = default;
 
 
 	[Header("Listening to channels")]

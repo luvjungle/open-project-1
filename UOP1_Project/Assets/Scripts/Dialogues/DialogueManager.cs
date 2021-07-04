@@ -33,7 +33,7 @@ public class DialogueManager : MonoBehaviour
 
 	[Header("Gameplay Components")]
 	[SerializeField]
-	private GameStateSO _gameState = default;
+	private GameStateManagerSO _gameState = default;
 
 	private DialogueDataSO _currentDialogue = default;
 
